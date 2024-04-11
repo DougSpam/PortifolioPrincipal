@@ -81,3 +81,10 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+@media (max-width: 375px) {
+    .cabeçalho__titulo {
+        font-size: 20px;
+        padding-right: 5em;
+    }
+}
