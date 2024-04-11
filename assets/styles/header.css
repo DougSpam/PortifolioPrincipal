@@ -11,6 +11,7 @@
 }
 
 .cabeçalho__titulo {
+    padding-bottom: 0.1em;
     padding-right: 2em;
     text-align: center;
     color: white;
