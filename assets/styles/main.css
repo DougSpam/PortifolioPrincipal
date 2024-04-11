@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container__principal {
+    text-align: center;
+}
+
+.meu-nome {
+    font-size: 40px;
+    color: white;
+}
+
+.text-animado {
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.text-animado span{
+    position: relative;
+}
+
+.text-animado span::before {
+    content: "";
+    color: rgb(26, 93, 66);
+    animation: palavras 20s infinite;
+}
+
+.text-animado span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid rgb(26, 93, 66);
+    right: -8px;
+    animation: cursor .8s infinite, animacao 20s steps(15) infinite;
+    width: calc(100% + 10px);
+    background-color: #000
+}
+
+@keyframes animacao {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5% , 20% , 25%, 40% , 45% ,60% , 65%, 80%,85% {
+        width: calc(100% + 10px);
+    }
+}
+
+@keyframes cursor {
+    0%{
+        border-left: 2px solid #000;
+    }
+}
+
+@keyframes palavras {
+    0%,20%{
+        content: "Desenvolvedor Full Stack";
+    }
+    21%,40%{
+        content: "Projetos Dinamicos";
+    }
+    41%,60%{
+        content: "Desenvolvimento Web";
+    }
+    61%,80%{
+        content: "Desenvolvimento Mobile";
+    }
+    81%,100%{
+        content: "Comunicação elevada!";
+    }
+}
