@@ -72,3 +72,14 @@
         content: "Comunicação elevada!";
     }
 }
+
+
+.icons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.icons img {
+    margin-bottom: 10px;
+}
