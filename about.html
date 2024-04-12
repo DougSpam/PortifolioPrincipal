@@ -6,7 +6,16 @@
     <title>Sobre Mim</title>
 
     <link rel="stylesheet" href="assets/styles/reset.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
     <link rel="stylesheet" href="assets/styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
 </head>
@@ -16,10 +25,97 @@
         <source src="assets/img/retromobile.mp4" type="video/mp4">
     </video>
 
-    <main>
-        <img src="assets/img/WhatsApp Image 2024-04-12 at 10.23.43.jpeg" alt="">
+    <header class="cabeçalho">
+        <div>
+            <input class="container__botao" type="checkbox" id="menu">
+                <label for="menu">
+                    <span class="cabeçalho__menu container__img"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <img src="assets/img/icons8-home-24.svg" opac alt="Menu Inicial">
+                        <a class="lista-menu__link" href="index.html">Inicio</a>
+                </li>
+                    <li class="lista-menu__item">
+                        <img src="assets/img/user-icon.png" width="24" height="24" alt="Sobre Mim">
+                        <a class="lista-menu__link" href="about.html">Sobre Mim</a>
+                    </li>
+    
+                    <li class="lista-menu__item">
+                        <img src="assets/img/icons8-project-management-50.png" width="24" height="24" alt="Projetos">
+                        <a class="lista-menu__link" href="#">Projetos</a>
+                    </li>
+    
+                    <li class="lista-menu__item">
+                        <img src="assets/img/icons8-email-50.png" width="24" height="24" alt="Contato">
+                        <a class="lista-menu__link" href="#">Contato</a>
+                    </li>
+                </ul>
+        </div>
+    
+        <div>
+            <h1 class="cabeçalho__titulo">Douglas Bezerra</h1>
+        </div>
+        </header>
+
+        <div class="container__sobremim__carrosel">
+          
+            <div class="swiper">
+                
+                <div class="swiper-pagination"></div>
+
+
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/img/icons8-html.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/icons8-css.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/icons8-javascript.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/icons8-nodejs.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/icons8-typescript-96.png" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/icons8-reagir.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/icons8-python.svg" alt=""></div>
+                <div class="swiper-slide"><img class="github-logoo" src="assets/img/github-logo.svg" alt=""></div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+
+            </div>
+
+        </div>
+
+    
+
+    <main class="container container__sobremim">
+        <img class="minha-img" src="assets/img/fotor-20240412103245.jpg" alt="">
+
+        <div class="container__sobremim__main">
+            <h1 class="container__titulo__sobremim">Sobre Mim</h1>
+
+            <p class="container__texto__sobremim">
+                Meu nome é Douglas, conhecido como Doug tenho 18 anos, sou uma pessoa louco por tecnologia 
+                estudo progamação ja faz 2 anos, mas meu primeiro contato com a progamação foi com 12 anos
+                onde fiz meu primeiro bot de WhatsApp usando terminal termux para hospedar o bot, usando como
+                principal linguaguem o nodejs.
+            </p>
+
+            <p class="container__texto__sobremim">Atualmente estudo para ser desenvolvedor Full-Stack, principalmente 
+                na area de Back-end, onde gosto de enfrentrar desafios e praticar a minha logica com codigos.
+            </p>
+
+            <p class="container__texto__sobremim">
+                Meu foco principal de estudo é NodeJS, TypeScript e JavaScript, Querendo expandir minhas habilidades
+                para outros tipos de liguaguem.
+            </p>
+        </div>
     </main>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,81 @@
+
+
+
+.container__sobremim {
+    flex-direction: column;
+}
+
+.minha-img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.container__sobremim__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #535a61;
+    font-weight: 500;
+    padding: 1.5em;
+}
+
+.container__titulo__sobremim {
+    font-weight: 700;
+
+    font-size: 30px;
+    padding-top: 0.3em;
+
+}
+
+.container__texto__sobremim {
+    padding-top: 1em;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+.container__sobremim__carrosel {
+    margin-bottom: -40%; /* Reduz a margem inferior do carrossel */
+}
+
+.container__sobremim {
+    margin-bottom: 100%; /* Reduz a margem superior da seção principal */
+}
+
+
+.container__sobremim__carrosel {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #535a61;
+    font-weight: 500;
+    padding: 4em;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev , .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.3em 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #92999f; /* Define a cor de fundo das bolinhas */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #166463; /* Define a cor de fundo das bolinhas ativas */
+}
