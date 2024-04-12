@@ -49,7 +49,6 @@
 
 
 .container__sobremim__carrosel {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,3 +78,4 @@
 .swiper-pagination-bullet-active {
     background-color: #166463; /* Define a cor de fundo das bolinhas ativas */
 }
+
