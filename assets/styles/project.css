@@ -1,0 +1,32 @@
+.container__projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--cinza);
+    font-weight: 500;
+    padding: 4em;
+    padding-top: 20em;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev , .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.3em 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #92999f; 
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #166463; 
+
+}

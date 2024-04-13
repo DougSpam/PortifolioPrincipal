@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Doug</title>
+    <title>Projects</title>
 
     <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -55,13 +55,43 @@
     </div>
     </header>
 
-    <section class="container">
-        <div class="container__principal">
-        <h1 class="meu-nome">Douglas Bezerra</h1>
-        <div class="text-animado">
-        <span></span>
+    <main class="container__projeto">
+
+        <div class="swiper">
+                
+            <div class="swiper-pagination"></div>
+
+
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"> <a href="https://doug-spotify.vercel.app" target="_blank"><img class="img-borrada" src="assets/img/projeto-spotify.png" alt=""></div>
+            </a>
+
+            <div class="swiper-slide"> <a href="https://lojadoug.vercel.app"> <img class="img-borrada" src="assets/img/projeto-loja.png" alt=""></div>
+            </a>
+                <div class="swiper-slide"> <a href="https://petlife-project-delta.vercel.app"><img class="img-borrada" src="assets/img/projeto-petlife.png" alt=""></div>
+                </a>    
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
 
         </div>
+
+
+
+    </div>
+
+
+
+    </main>
+
+
+
     <div class="icons">
         <a href="https://github.com/DougSpam" target="_blank">
         <img src="assets/img/github-logo.svg" alt="">
@@ -72,10 +102,10 @@
         </a>    
     </div>
         </div>
-
-    </section>
     
 
-   
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script-project.js"></script>
+
 </body>
 </html>

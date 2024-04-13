@@ -1,3 +1,4 @@
+@import url(project.css);
 @import url(about.css);
 @import url(header.css);
 @import url(main.css);
@@ -7,6 +8,7 @@
     --font-principal: 'Poppins';
     --cor-fundo: #00030C;
     --laranja: #EB9B00;
+    --cinza: #535a61;
 }
 
 body{

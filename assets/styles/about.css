@@ -53,7 +53,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #535a61;
+    color: var(--cinza);
     font-weight: 500;
     padding: 4em;
 }
