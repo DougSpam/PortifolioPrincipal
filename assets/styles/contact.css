@@ -7,6 +7,7 @@
 }
 
 .titulo__contato {
+    color: white;
     font-size: 24px;
     font-weight: 700;
 }
@@ -22,11 +23,25 @@
     opacity: 0.6;
 }
 
-.container__contato:hover{
-    transform: scale(1.1);
+.contato__link-email:hover{
+    transition: .5s;
+    transform: scale(1.2);
 }
 
+.contato__link-git:hover{
+    transition: .5s;
+    transform: scale(1.2);
+}
 
+.contato__link-linkedin:hover{
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.contato__link-whats:hover{
+    transition: .5s;
+    transform: scale(1.2);
+}
 
 .contato__link {
     display: flex;
