@@ -1,0 +1,21 @@
+@media (min-width: 1024px) {
+    .container__sobremim__carrosel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #Fff;
+    }
+
+    .swiper-slide img {
+        width: 50%;
+    }
+    
+    .container__sobremim {
+        margin-top: 30em;
+    }
+
+    .container__texto__sobremim {
+        padding: 0.5em 5em 0 5em;
+        font-size: 24px;
+    }
+}
