@@ -41,7 +41,7 @@
 }
 
 .codigo-site {
-     font-size: 12px;
+     font-size: 14px;
      font-weight: bold;
      color: rgba(170, 222, 243, 0.721);
      text-shadow: black 1px 1px ;
@@ -245,3 +245,8 @@
     position: relative;
   }
 
+  @media (max-width: 1000px) {
+      body {
+        overflow: scroll;
+      }
+  }
