@@ -19,7 +19,11 @@ body{
     width: 100vw;
     height: 100vw;
     margin: 0;
+<<<<<<< HEAD
     overflow-x: hidden;
+=======
+    overflow-y: hidden;
+>>>>>>> 24b30d307e0963f92cd3e886bfa0d735e35fae0e
 }
 
 #video-background {
